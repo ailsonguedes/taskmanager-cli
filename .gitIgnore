@@ -1,0 +1,34 @@
+# --- Maven ---
+target/
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.nextReleaseBackup
+release.properties
+
+# --- Compiled files ---
+*.class
+*.jar
+*.war
+*.ear
+
+# --- IDEs (IntelliJ, VS Code, Eclipse) ---
+.idea/
+*.iml
+.vscode/
+.settings/
+.project
+.classpath
+bin/
+
+# --- Sistema e Logs ---
+*.log
+.DS_Store
+Thumbs.db
+
+# --- Banco de Dados e Segredos ---
+.env
+*.sql.gz
+
+# --- Outros ---
+Dia01.md
+TaskManager-cli.md
