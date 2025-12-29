@@ -6,9 +6,9 @@ import lombok.Getter;
 @AllArgsConstructor
 @Getter
 public enum StatusEnum {
-    PENDING("Pending"),
-    IN_PROGRESS("In Progress"),
-    COMPLETED("Completed"),
+    TO_DO("To Do"),
+    WIP("Work In Progress"),
+    DONE("Done"),
     CANCELLED("Cancelled");
 
     private final String currentStatus;
